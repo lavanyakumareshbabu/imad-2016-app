@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: red;
+    background-color: pink;
     margin-top: 75px;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 .bold {
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 .img-medium {
