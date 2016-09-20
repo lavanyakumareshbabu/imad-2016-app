@@ -19,4 +19,7 @@ body {
 .img-medium {
     height: 200px;
 }
-
+.h1 {
+    color: orange;
+    text-align: center;
+}
