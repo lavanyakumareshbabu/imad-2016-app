@@ -1,5 +1,5 @@
 console.log('Loaded!');
 
-var element = document.getelementbyid('main-text');
+var element = document.getelementbyId('main-text');
 
 element.innerHTML = "java script text";
