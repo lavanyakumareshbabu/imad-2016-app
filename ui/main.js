@@ -2,5 +2,5 @@ console.log('Loaded!');
 
 var element=document.getElementById('main-text');
 
+element.innerHTML = "NEW VALUE"
 
-element.innerHTML = "New java script";
