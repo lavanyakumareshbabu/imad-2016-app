@@ -1,5 +1,6 @@
 console.log('Loaded!');
 
-var element=document.getElementbyId('main-text');
+var element=document.getElementById('main-text');
 
-element.InnerHTML = "New java script";
+
+element.innerHTML = "New java script";
