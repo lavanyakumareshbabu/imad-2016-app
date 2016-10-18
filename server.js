@@ -24,7 +24,7 @@ function createtemplate(data)
                `
                <html>
     <head>
-        <title> &{title} </title>
+        <title> ${title} </title>
         <link href="/ui/style.css" rel="stylesheet" />
         <meta name="viewport" content="width-device-width,initial-scale=1"/>
     </head>
@@ -33,14 +33,16 @@ function createtemplate(data)
          <a href='/'>Home</a>
         </div>
         <hr/>
-        <h> &{heading}</h>
+        <h> ${heading}</h>
+        <hr/>
         <hr/>
         <div>
-            &{date}
+            ${date}
         </div>
+        <hr/>
         <div class = "center">
          <p1> 
-              &{content}
+              ${content}
         </p1>
         </div>
         
