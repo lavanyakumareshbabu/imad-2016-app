@@ -5,7 +5,7 @@ button.onclick=function()
   
       var request=new XMLHttpRequest();
 
-      request.onreadystatechange = function()
+      request.oneadystatechange = function()
       {
         if (request.readyState==XMLHttpRequest.DONE)
         {
@@ -13,7 +13,7 @@ button.onclick=function()
                {
                    var counter=request.responseText;
                    var span=document.getElementById('count');
-                   span.InnerHTML=counter.tostring();
+                   span.InnerHTML=counter.toString();
                    
                }
             
