@@ -18,13 +18,13 @@ button.onclick=function()
 
   request.onreadystatechange=function()
       {
-        if (request.readyState==XMLHttpRequest.DONE)
+        if (request.readyState!=XMLHttpRequest.DONE)
         {
-            if (request.status==200)
+            if (request.status===0)
                {
                    var counter=request.responseText;
                    var span=document.getElementById('count');
-                   span.InnerHTML=counter.toString();
+                   span.InnerHTML=counter+"text";
                    
                }
             
