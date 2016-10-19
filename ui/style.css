@@ -24,3 +24,10 @@ body {
     color: blue;
     text-align: left;
 }
+.container{
+    max-width:800px;
+    margin:auto;
+    color:grey;
+    font-family:sansserif;
+    
+}
