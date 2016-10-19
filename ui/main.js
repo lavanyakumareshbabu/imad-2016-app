@@ -10,6 +10,8 @@
 
 var button=document.getElementById('counter');
 
+request.open('GET','http://lavanyakumareshbabu.imad.hasura-app.io/counter',true);
+request.send(null);
 
 button.onclick=function()
 {
@@ -32,8 +34,6 @@ button.onclick=function()
     
     };
 };
-request.open('GET','http://lavanyakumareshbabu.imad.hasura-app.io/counter',true);
-request.send(null);
 
 
 
