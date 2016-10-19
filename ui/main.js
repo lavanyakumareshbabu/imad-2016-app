@@ -9,7 +9,7 @@
 
 
 
-var button=document.getElementById('counter');
+
 
 button.onclick=function()
 {
@@ -32,7 +32,7 @@ button.onclick=function()
     
     };
 };
-
+var button=document.getElementById('counter');
 request.open('GET','http://lavanyakumareshbabu.imad.hasura-app.io/counter',true);
 request.send(null);
 
