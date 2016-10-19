@@ -72,7 +72,11 @@ return htmltemplate;
 }
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+}); app.get('/counter', function (req, res) {
+    counter=counter+1;
+  res.send(counter,tostring());
 }); 
+
 var names=[];
 app.get('/submit-name', function (req, res) {
     var name=req.query.name;
@@ -80,10 +84,7 @@ app.get('/submit-name', function (req, res) {
     res.send(JSON.stringify(names));
 });
 
-app.get('/counter', function (req, res) {
-    counter=counter+1;
-  res.send(counter,tostring());
-}); 
+
 
 
 app.get('/ui/style.css', function (req, res) {
