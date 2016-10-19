@@ -2,10 +2,10 @@ var button=document.getElementById('counter');
 
 button.onclick=function()
 {
-  request.open('GET','http://lavanyakumareshbabu.imad.hasura-app.io/counter',true);
-request.send(null);
-      var request=new XMLHttpRequest();
+     var request=new XMLHttpRequest();
 
+  
+     
       request.onreadystatechange = function()
       {
         if (request.readyState==XMLHttpRequest.DONE)
@@ -22,7 +22,8 @@ request.send(null);
     
     };
 };
-
+request.open('GET','http://lavanyakumareshbabu.imad.hasura-app.io/counter',true);
+request.send(null);
 
 
 
