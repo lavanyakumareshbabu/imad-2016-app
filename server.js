@@ -73,10 +73,10 @@ return htmltemplate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-
+var c=0;
 app.get('/counter', function (req, res) {
-    counter=counter+1;
-  res.send(counter.toString());
+    c=c+1;
+  res.send(c.toString());
 }); 
 
 var names=[];
