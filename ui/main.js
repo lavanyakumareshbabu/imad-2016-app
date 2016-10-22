@@ -27,7 +27,7 @@ button.onclick=function()
      
      
   };
-  c=c+1;
+ 
          
 
 
