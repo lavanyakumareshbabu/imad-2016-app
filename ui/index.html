@@ -3,18 +3,21 @@
        <title>MY APP</title>
        <link href="/ui/style.css" rel="stylesheet"/>
     </head>
-    <body>
-        <div class="container">
-          <img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_1440,w_720,f_auto,q_90/v1/138836/IMAD-Mascot_rninuq.png" class="img-medium"/>
-          </div>
-          <br>
-          <div class="center tet-big bold">
-              <button >clickme</button>
-              <marquee>
-              THIS IS MY FIRST WEB APP
-              </marquee>
-          </div>
-          
+    <body
+      <p id="demo">Click the button to change the layout of this paragraph</p>
+
         
+         <script>
+             function myFunction() {
+             var x = document.getElementById("demo");
+              x.style.fontSize = "25px";
+              x.style.color = "red";
+
+         </script>
+
+     <button onclick="myFunction()">Click Me!</button>
+
+      
+          
      </body>
 </html>
