@@ -25,9 +25,8 @@ body {
     text-align: left;
 }
 .container{
-    max-width:800px;
-    margin:auto;
-    color:grey;
-    font-family:sansserif;
+    
+    height:10px;
+    width:30px;
     
 }
