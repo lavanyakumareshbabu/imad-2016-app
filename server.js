@@ -9,8 +9,8 @@ var config={
        user:'lavanyakumareshbabu',
        database:'lavanyakumareshbabu',
        host:'db.imad.hasura-app.io',
-       port:5432,
-       password:process.env.DB-PASSWORD
+       port:'5432',
+       password:process.env.DB_PASSWORD
 };
 var articles ={
  'article-one' : 
