@@ -64,7 +64,7 @@ function createtemplate(data)
         <hr/>
         <hr/>
         <div>
-            ${date.toDatestring()}
+            ${date}
         </div>
         <hr/>
         <div class = "center">
