@@ -12,35 +12,7 @@ var config={
        port:'5432',
        password:process.env.DB_PASSWORD
 };
-var articles ={
- 'article-one' : 
-{
-    title:'article one by lavanya',
-    heading:'article one',
-    date:    'sep 5 2016',
-    content: `this is article-onethis is article-onethis is article-one
-             this is article-onethis is article-onethis is article-one
-             this is article-onethis is article-onethis is article-one`
-},
-'article-two' :
-{
-    title:'article two by lavanya',
-    heading:'article two',
-    date:    'sep 10 2016',
-    content: `this is article-twothis is article-onethis is article-one
-             this is article-twoethis is article-onethis is article-one
-             this is article-onethis is article-onethis is article-one`
-},
-'article-three' :
-{
-    title:'article three by lavanya',
-    heading:'article three',
-    date:    'sep 15 2016',
-    content: `this is article-three this is article-onethis is article-one
-             this is article-onethis is article-onethis is article-one
-             this is article-onethis is article-onethis is article-one`
-}
-};
+
 function createtemplate(data)
 {
     var title=data.title;
