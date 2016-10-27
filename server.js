@@ -83,7 +83,7 @@ app.get('/', function (req, res) {
 });
 var pool = new Pool(config);
 app.get('/test-db', function(req, res){
-    pool.query('INSERT INTO test("id","name") VALUES (4,"lavanya")',function(err,result){
+    pool.query('INSERT INTO test("id","name") VALUES (4,lavanya)',function(err,result){
      if (err)
      {
          res.status(500).send(err.toString());
