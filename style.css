@@ -1,1 +1,33 @@
 
+body {
+    font-family: sans-serif;
+    background-color: pink;
+    margin-top: 75px;
+   
+}
+
+.center {
+    text-align: left;
+}
+
+.text-big {
+    font-size: 100%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.img-medium {
+    height: 10px;
+}
+.ex {
+    color: blue;
+    text-align: left;
+}
+.container{
+    
+    height:10px;
+    width:30px;
+    
+}
